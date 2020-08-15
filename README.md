@@ -11,6 +11,8 @@ The whole system is built on the RPC architecture. The core technical stacks are
     - Spring Session
     - MybatisGenerator
     - Mysql 
+    - Dubbo
+    - Zookeeper
     - FastDFS
     - Nginx
     - Kinkeditor
