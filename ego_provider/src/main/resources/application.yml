@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    # 加载当前项目所依赖的jar项目中application-xxx.yml文件，通过xxx名称进行加载
+    active: mapper
+dubbo:
+  application:
+    name: ego-provider
+  registry:
+    address: zookeeper://192.168.64.4:2181
+
+

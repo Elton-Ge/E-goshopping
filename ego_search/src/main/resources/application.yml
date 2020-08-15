@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: ego-search
+  registry:
+    address: zookeeper://192.168.64.4:2181
+
+server:
+  port: 8083
+
+# Spring MVC视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: commons,redis
+  data:
+    solr:
+      host: http://192.168.64.5:8983/solr

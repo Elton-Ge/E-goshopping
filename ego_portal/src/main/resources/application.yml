@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: ego-portal
+  registry:
+    address: zookeeper://192.168.64.4:2181
+
+server:
+  port: 8082
+
+# Spring MVC视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active: commons,redis

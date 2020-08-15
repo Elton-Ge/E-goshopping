@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host: 192.168.64.5
+    username: elton
+    password: elton
+  profiles:
+    active: commons,redis,mail
+#    port: 5672
+
+dubbo:
+  application:
+    name: ego-rabbitmq-receiver
+  registry:
+    address: zookeeper://192.168.64.4:2181
+
+
+
+

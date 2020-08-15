@@ -1,0 +1,28 @@
+ego:
+  fastdfs:
+    nginx: http://192.168.64.5:8888/
+  bigad:
+    categoryId: 89
+#    这是软编码 89是大广告的categoryid，不要写89L。只写数字
+  rabbitmq:
+    tbContent:
+      queueName: content
+    tbItem:
+      queueName: item
+      queueNameDelete: itemDelete
+    tbOrder:
+      createOrder: createOrder
+      deleteCart: deleteCart
+    mail: mail
+  search:
+    insertItemUrl: "http://localhost:8083/insert"
+    deleteItemUrl: "http://localhost:8083/delete"
+  item:
+    details:
+      redisKey: 'com.ego.item::showDetails'
+  cart:
+    tempCart: tempCart
+    userCart: 'userCart:'
+  passport:
+    loginUrl: http://localhost:8084/user/showLogin
+# 临时购物车的cookie keyName

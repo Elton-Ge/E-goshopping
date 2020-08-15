@@ -1,0 +1,16 @@
+spring:
+  mail:
+    username: xxx@hotmail.com
+    # 这是邮箱登录密码，也可以是开始pop3/smtp后只显示一次的授权码
+    password: xxx
+    # 选择好你的邮箱对应的主机
+    host: smtp.hotmail.com
+    properties:
+      mail:
+        smtp:
+          # 开启邮箱客户端功能（通俗：能让邮箱通过代码发送邮件）
+          auth: true
+
+
+server:
+  port: 9999
