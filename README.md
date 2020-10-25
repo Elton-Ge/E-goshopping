@@ -2,7 +2,7 @@
 ---
 
 Ego Shopping System is a online shopping website. 
-The whole system is built on the RPC architecture. The core technical stacks are shown as below
+It uses a distributed system architecture . The core technical stacks are shown as below
 - Core technical stacks
     - Spring Security
     - Spring Boot  
