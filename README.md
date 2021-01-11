@@ -1,7 +1,7 @@
-# Ego-shopping-system
+# E-goshopping
 ---
 
-Ego Shopping System is a online shopping website. 
+E-go Shopping is a online shopping website. 
 It uses a distributed system architecture . The core technical stacks are shown as below
 - Core technical stacks
     - Spring Security
